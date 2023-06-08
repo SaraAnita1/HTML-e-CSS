@@ -60,8 +60,13 @@ span {
   font-size: 24px;
   font-weight: 600;
   padding: 21.5px 0;
-  color: #fdf1f1;
+  color: #f6ecdb;
   font-family: "Montserrat Alternates", sans-serif;
+  transition: all 700ms;
+}
+
+.presentation__links__link:hover {
+  background: #f05098bd;
 }
 
 .wrapper__img{
