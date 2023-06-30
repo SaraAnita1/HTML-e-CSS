@@ -36,7 +36,7 @@ body {
   padding: 5% 8%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .presentation__content {
@@ -137,10 +137,17 @@ footer {
 }
 
 .apresentacao {
-  
+  display: flex;
+  align-items: center;
+  padding: 5% 8%;
+  justify-content: space-between;
+ 
+
 }
 
 .apresentacao__conteudo__texto a{
   text-decoration: none;
   color: #22D4FD;
 }
+
+
